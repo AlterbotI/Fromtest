@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <form action="action.php">
+        <!--Usernames and password start-->
+        <fieldset>
+            <label for="fname">First name:</label>
+            <input type="text" name="First name" id="fname" placeholder="First name">
+            &nbsp;
+            <label for="lname">Last name:</label>
+            <input type="text" name="last name" id="lname" placeholder="last name">
+            &nbsp;
+            <br>
+            <br>
+            <label for="email">Email:</label>
+            <input type="email" name="email" id="email" placeholder="please enter your email">
+            &nbsp;
+            <br>
+            <br>
+            <label for="Password">Password:</label>
+            <input type="password" name="Password" id="Password" minlength="8" placeholder="8 characters minimum "
+                required>
+
+            <!--usernames and password end-->
+            <br>
+            <br>
+            <!--country details start-->
+            <label for="country">country:</label>
+            <select id="country" name="country">
+                <option value="Pakistan">Pakistan</option>
+                <option value="xyz">xyz</option>
+                <option value="xyz">xyz</option>
+                <option value="xyz">xyz</option>
+            </select>
+            <!--country details end-->
+            &nbsp;
+            <!--state/province details start-->
+            <label for="state/province">state/province:</label>
+            <select id="state/province" name="state/province">
+                <option value="xyz">xyz</option>
+                <option value="xyz">xyz</option>
+                <option value="xyz">xyz</option>
+                <option value="xyz">xyz</option>
+            </select>
+            <!--state/province details end-->
+            <br>
+            <br>
+            <!--Gender details start-->
+            <p>Please select your gender:</p>
+            <input type="radio" id="male" name="gender" value="Male">
+            <label for="male">male</label><br>
+            <input type="radio" id="female" name="gender" value="female">
+            <label for="female">female</label><br>
+            <input type="radio" id="other" name="gender" value="other">
+            <label for="other">other</label>
+            <!--Gender details end-->
+            <br>
+            <br>
+            <!--interests/hobbies start-->
+            <p>interests/hobbies:</p>
+            <input type="checkbox" name="xzy" id="xzy" value="hobbies">
+            <label for="xzy">xyz</label>
+            <input type="checkbox" name="xzy" id="xyy" value="hobbies">
+            <label for="xyy">xyz</label>
+            <input type="checkbox" name="xzy" id="xxy" value="hobbies">
+            <label for="xxy">xyz</label>
+            <input type="checkbox" name="xzy" id="xyz" value="hobbies">
+            <label for="xyz">xyz</label>
+            <!--interests/hobbies end-->
+            <br><br>
+            <!--Additional comments textarea start-->
+            <textarea name="" rows="10" cols="30" placeholder="additional comments"></textarea>
+            <!--Additional comments textarea end-->
+            <br>
+            <br>
+            <!--submit button start-->
+            <input type="submit" value="Submit">
+            <!--submit button end-->
+            <!--reset button start-->
+            <input type="reset">
+            <!--reset button end-->
+        </fieldset>
+
+    </form>
+</body>
+
+
+</html>
