@@ -8,19 +8,19 @@
 </head>
 
 <body>
-    <form action="action.php">
+    <form action="thankyou.html" method="post">
         <!--Usernames and password start-->
         <fieldset>
             <label for="fname">First name:</label>
-            <input type="text" name="First name" id="fname" placeholder="First name">
+            <input type="text" name="First name" id="fname" placeholder="First name" required>
             &nbsp;
             <label for="lname">Last name:</label>
-            <input type="text" name="last name" id="lname" placeholder="last name">
+            <input type="text" name="last name" id="lname" placeholder="last name" required>
             &nbsp;
             <br>
             <br>
-            <label for="email">Email:</label>
-            <input type="email" name="email" id="email" placeholder="please enter your email">
+            <label for="emailField">Enter your email:</label>
+            <input type="email" name="emailField" id="emailField" required />
             &nbsp;
             <br>
             <br>
@@ -44,12 +44,23 @@
             <!--state/province details start-->
             <label for="state/province">state/province:</label>
             <select id="state/province" name="state/province">
-                <option value="xyz">xyz</option>
-                <option value="xyz">xyz</option>
-                <option value="xyz">xyz</option>
-                <option value="xyz">xyz</option>
+                <option value="sindh">Sindh</option>
+                <option value="punjab">Punjab</option>
+                <option value="balochistan">Balochistan</option>
+                <option value="KPK">KPK</option>
+                <option value="Gilgit-Baltistan">Gilgit-Baltistan</option>
             </select>
             <!--state/province details end-->
+            &nbsp;
+            <!--Job role start-->
+            <label for="jobrole">Job role:</label>
+            <select id="jobrole" name="Job role">
+                <option value="web developer">Web developer</option>
+                <option value="wordpress developer">wordpress developer</option>
+                <option value="SEO">SEO</option>
+                <option value="Graphic designer">Graphic designer</option>
+            </select>
+            <!--Job role end-->
             <br>
             <br>
             <!--Gender details start-->
